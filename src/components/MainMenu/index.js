@@ -3,6 +3,7 @@ import Skills from "../SkillsApp";
 import MainDetails from "../MainDetailsApp";
 import ServiceDetails from "../MainDetailsApp/ServiceDetails/ServiceDetails";
 import Menu from "./Menu/Menu";
+import NewsFeed from "../NewsFeedApp";
 
 export default function MainMenu() {
     return (
@@ -14,7 +15,7 @@ export default function MainMenu() {
                     <Route path=':id/details' element={<ServiceDetails />}></Route>
                 </Route>
                 {/* <Route path='/ra-redux-observable/main-details/:id/details' element={<ServiceDetails />}></Route> */}
-                {/* <Route></Route> */}
+                <Route path="/ra-redux-observable/news-feed" element={<NewsFeed />}></Route>
             </Routes>
         </div>
     )

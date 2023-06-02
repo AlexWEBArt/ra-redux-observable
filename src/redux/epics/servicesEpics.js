@@ -2,7 +2,7 @@ import { ofType } from 'redux-observable';
 import { ajax } from 'rxjs/ajax';
 import { map, switchMap, catchError } from 'rxjs/operators';
 import { SERVICES_REQUEST, SERVICE_DETAIL_REQUEST } from '../actions/actionTypes';
-import { servicesSuccess, servicesFailure, serviceDetailsSuccess, serviceDetailsFailure } from '../actions/actionCreators';
+import { servicesSuccess, servicesFailure, serviceDetailsSuccess, serviceDetailsFailure } from '../actions/actionCreatorsServices/actionCreatorsServices';
 import { of } from 'rxjs';
 
 

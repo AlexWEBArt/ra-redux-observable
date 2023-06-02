@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { servicesRequest } from "../../../redux/actions/actionCreators"
+import { servicesRequest } from "../../../redux/actions/actionCreatorsServices/actionCreatorsServices"
 import Service from "../Service/Service"
 
 export default function ServicesList() {

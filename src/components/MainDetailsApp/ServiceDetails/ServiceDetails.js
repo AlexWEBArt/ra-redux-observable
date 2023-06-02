@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 import { useParams } from "react-router";
-import { serviceDetailsRequest } from "../../../redux/actions/actionCreators";
+import { serviceDetailsRequest } from "../../../redux/actions/actionCreatorsServices/actionCreatorsServices";
 import { useEffect } from "react";
 
 export default function ServiceDetails() {

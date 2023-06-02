@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import { serviceDetailsRequest, servicesRequest } from "../../../redux/actions/actionCreators"
+import { serviceDetailsRequest, servicesRequest } from "../../../redux/actions/actionCreatorsServices/actionCreatorsServices"
 import { useParams } from "react-router"
 
 export default function ErrorMessage(props) {

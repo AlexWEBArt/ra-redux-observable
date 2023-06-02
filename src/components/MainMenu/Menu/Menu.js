@@ -5,7 +5,7 @@ export default function Menu() {
         <nav className="menu">
             <NavLink className="menu-item" to="/ra-redux-observable/skills">SkillsApp</NavLink>
             <NavLink className="menu-item" to="/ra-redux-observable/main-details">MainDetailsApp</NavLink>
-            {/* <NavLink className="menu__item" to="/timeattack">Time Attack</NavLink> */}
+            <NavLink className="menu-item" to="/ra-redux-observable/news-feed">NewsFeedApp</NavLink>
         </nav>
     );
 }

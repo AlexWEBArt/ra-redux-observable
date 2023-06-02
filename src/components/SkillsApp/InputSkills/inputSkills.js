@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { changeSearchField } from '../../../redux/actions/actionCreators';
+import { changeSearchField } from '../../../redux/actions/actionCreatorsSkills/actionCreatorsSkills';
 
 export default function InputSkills() {
     const { search } = useSelector(state => state.skills);

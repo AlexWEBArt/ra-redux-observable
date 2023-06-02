@@ -2,7 +2,7 @@ import { ofType } from 'redux-observable';
 import { ajax } from 'rxjs/ajax';
 import { map, tap, retry, filter, debounceTime, switchMap, catchError } from 'rxjs/operators';
 import { CHANGE_SEARCH_FIELD, SEARCH_SKILLS_REQUEST } from '../actions/actionTypes';
-import { searchSkillsRequest, searchSkillsSuccess, searchSkillsFailure } from '../actions/actionCreators';
+import { searchSkillsRequest, searchSkillsSuccess, searchSkillsFailure } from '../actions/actionCreatorsSkills/actionCreatorsSkills';
 import { of } from 'rxjs';
 
 export const changeSearchEpic = action$ => action$.pipe(
