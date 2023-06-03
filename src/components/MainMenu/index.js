@@ -10,6 +10,7 @@ export default function MainMenu() {
         <div className="main-menu">
             <Menu />
             <Routes>
+                <Route path="/ra-redux-observable" element={<Menu />}></Route>
                 <Route path="/ra-redux-observable/skills" element={<Skills />}></Route>
                 <Route path="/ra-redux-observable/main-details/*" element={<><MainDetails /><Outlet /></>}>
                     <Route path=':id/details' element={<ServiceDetails />}></Route>
