@@ -1,7 +1,9 @@
 import ServicesList from "./ServicesList/ServicesList"
 import SystemServices from "../SystemServices"
+import { useSelector } from "react-redux"
 
 export default function MainDetails() {
+    const { loading, error } = useSelector(state => state.services)
 
     return (
         <div className='main-details-app'>
@@ -9,7 +11,7 @@ export default function MainDetails() {
             {/* <Routes>
                 <Route path='/ra-redux-observable/main-details/:id/details' element={<ServiceDetails />}></Route>
             </Routes> */}
-            <SystemServices />
+            <SystemServices message={{loading, error}}/>
         </div>
     )
 }

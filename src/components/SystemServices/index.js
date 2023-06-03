@@ -1,9 +1,10 @@
-import { useSelector } from "react-redux"
+// import { useSelector } from "react-redux"
 import Preloader from "./Preloader/Preloader"
 import ErrorMessage from "./ErrorMessage/ErrorMessage"
 
-export default function SystemServices() {
-    const { loading, error } = useSelector(state => state.services)
+export default function SystemServices(props) {
+    // const { loading, error } = useSelector(state => state.services)
+    const { loading, error} = props.message;
 
     return (
         <div className="system-services">

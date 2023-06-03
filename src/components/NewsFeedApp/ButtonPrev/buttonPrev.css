@@ -1,0 +1,14 @@
+.btn-previous {
+    all: unset;
+
+    width: 18vw;
+    padding: 0.5vw 2vw;
+    margin: 2vw;
+    color: #0f88f2;
+
+    cursor: pointer;
+
+    background-color: #aec6d8;
+    border: silver solid 1px;
+    border-radius: 5px;
+}
