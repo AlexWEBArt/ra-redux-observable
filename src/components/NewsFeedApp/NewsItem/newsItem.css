@@ -7,6 +7,7 @@
 
     background-color: white;
     border: whitesmoke solid 1px;
+    box-shadow: 0 0 10px 1px grey;
     border-radius: 5px;
 }
 
@@ -52,7 +53,7 @@
 }
 
 .news-item-body-link-image {
-    height: 20vw;
+    width: 100%;
 }
 
 .news-item-body-link-info {
@@ -67,10 +68,26 @@
 .news-item-footer-likes,
 .news-item-footer-comments,
 .news-item-footer-reposts {
+    text-align: left;
     flex-grow: 2;
 }
 
 .news-item-footer-views {
     flex-grow: 5;
     text-align: right;
+}
+
+.item-footer-img {
+    font-size: 30px;
+}
+
+.item-footer-text {
+    margin-left: 0.5vw;
+}
+
+.item-footer-img,
+.item-footer-text {
+    color: rgb(136, 136, 136);
+    vertical-align: middle;
+    cursor: pointer;
 }

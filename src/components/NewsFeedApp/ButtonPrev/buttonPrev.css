@@ -2,6 +2,7 @@
     all: unset;
 
     width: 18vw;
+    max-width: 200px;
     padding: 0.5vw 2vw;
     margin: 2vw;
     color: #0f88f2;
@@ -9,6 +10,11 @@
     cursor: pointer;
 
     background-color: #aec6d8;
+    box-shadow: 0 2px 3px 0 grey;
     border: silver solid 1px;
     border-radius: 5px;
+}
+
+.btn-previous:hover {
+    background-color: #a6c0d6;
 }

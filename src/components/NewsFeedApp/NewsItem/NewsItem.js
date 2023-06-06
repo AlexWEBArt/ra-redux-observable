@@ -22,16 +22,20 @@ export default function NewsItem(props) {
             {body.type === 'article' && <ArticleContent body={body}/>}
             <div className="news-item-footer">
                 <div className="news-item-footer-likes">
-                    {footer.likes}
+                    <span className='item-footer-img'>&#9825;</span>
+                    <span className='item-footer-text'>{footer.likes}</span>
                 </div>
                 <div className="news-item-footer-comments">
-                    {footer.comments}
+                    <span className='item-footer-img'>&#128488;</span>
+                    <span className='item-footer-text'>{footer.comments}</span>
                 </div>
                 <div className="news-item-footer-reposts">
-                    {footer.reposts}
+                    <span className='item-footer-img'>&#11179;</span>
+                    <span className='item-footer-text'>{footer.reposts}</span>
                 </div>
                 <div className="news-item-footer-views">
-                    {footer.views}
+                    <span className='item-footer-img'>&#128065;</span>
+                    <span className='item-footer-text'>{footer.views}</span>
                 </div>
             </div>
         </div>
