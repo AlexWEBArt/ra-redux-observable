@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ra-redux-observable/static/css/main.d676d2b3.css",
-    "main.js": "/ra-redux-observable/static/js/main.c54d35ce.js",
+    "main.css": "/ra-redux-observable/static/css/main.fe00e0eb.css",
+    "main.js": "/ra-redux-observable/static/js/main.295288b9.js",
     "static/js/787.eeabcd20.chunk.js": "/ra-redux-observable/static/js/787.eeabcd20.chunk.js",
     "static/media/logoNetology.jpg": "/ra-redux-observable/static/media/logoNetology.e77aa8c63e2e33cc047e.jpg",
     "index.html": "/ra-redux-observable/index.html",
-    "main.d676d2b3.css.map": "/ra-redux-observable/static/css/main.d676d2b3.css.map",
-    "main.c54d35ce.js.map": "/ra-redux-observable/static/js/main.c54d35ce.js.map",
+    "main.fe00e0eb.css.map": "/ra-redux-observable/static/css/main.fe00e0eb.css.map",
+    "main.295288b9.js.map": "/ra-redux-observable/static/js/main.295288b9.js.map",
     "787.eeabcd20.chunk.js.map": "/ra-redux-observable/static/js/787.eeabcd20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d676d2b3.css",
-    "static/js/main.c54d35ce.js"
+    "static/css/main.fe00e0eb.css",
+    "static/js/main.295288b9.js"
   ]
 }
