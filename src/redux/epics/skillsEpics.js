@@ -18,7 +18,7 @@ export const searchSkillsEpic = action$ => action$.pipe(
     map(o => o.payload.search),
     map(o => new URLSearchParams({ q: o })),
     tap(o => console.log(o)),
-    switchMap(o => ajax.getJSON(`https://ra-redux-observable-backend.onrender.com/api/search?${o}`).pipe(
+    switchMap(o => ajax.getJSON(`https://common-study-backend.onrender.com/api/search?${o}`).pipe(
         retry(3),
         map(o => searchSkillsSuccess(o)),
         catchError(e => of(searchSkillsFailure(e))),

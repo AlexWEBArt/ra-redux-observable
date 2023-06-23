@@ -8,7 +8,7 @@ import { of } from 'rxjs';
 
 export const servicesEpic = action$ => action$.pipe(
     ofType(SERVICES_REQUEST),
-    switchMap(o => ajax.getJSON(`https://ra-redux-observable-main-detail-backend.onrender.com/api/services`).pipe(
+    switchMap(o => ajax.getJSON(`https://common-study-backend.onrender.com/api/services`).pipe(
         map(o => servicesSuccess(o)),
         catchError(e => of(servicesFailure(e))),
     )),
@@ -17,7 +17,7 @@ export const servicesEpic = action$ => action$.pipe(
 export const serviceDetailsEpic = action$ => action$.pipe(
     ofType(SERVICE_DETAIL_REQUEST),
     map(o => o.payload.id),
-    switchMap(id => ajax.getJSON(`https://ra-redux-observable-main-detail-backend.onrender.com/api/services/${id}`).pipe(
+    switchMap(id => ajax.getJSON(`https://common-study-backend.onrender.com/api/services/${id}`).pipe(
         map(o => serviceDetailsSuccess(o)),
         catchError(e => of(serviceDetailsFailure(e))),
     )),

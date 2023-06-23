@@ -8,27 +8,19 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+
+    background: #5793ee;
 }
 
-.service:first-child {
-    border-top: #361F36 solid 1px;
-}
 
 .service {
     all: unset;
     color: ghostwhite;
     padding: 5px 10px;
-    background: #361F36;
-    border-left: #361F36 solid 1px;
-    border-right: #361F36 solid 1px;
-    border-bottom: #361F36 solid 1px;
+    background: #5793ee;
 }
 
 .service a {
     color:aliceblue;
     text-decoration: none;
-}
-
-.details-contsiner {
-
 }

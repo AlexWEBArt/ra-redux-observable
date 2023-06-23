@@ -7,7 +7,7 @@ import arrayConverter from "../../utils/arrayConverter";
 
 export const newsEpic = action$ => action$.pipe(
     ofType(NEWS_REQUEST),
-    switchMap(() => ajax.getJSON('https://ra-redux-observable-news-feed-backend.onrender.com/api/news').pipe(
+    switchMap(() => ajax.getJSON('https://common-study-backend.onrender.com/api/news').pipe(
         retryWhen(errors =>
             errors.pipe(
                 delayWhen(() => timer(3000))
@@ -20,7 +20,7 @@ export const newsEpic = action$ => action$.pipe(
 export const previousNewsEpic = action$ => action$.pipe(
     ofType(PREVIOUS_NEWS_REQUEST),
     map(o => o.payload.lastSeenId),
-    switchMap(id => ajax.getJSON(`https://ra-redux-observable-news-feed-backend.onrender.com/api/news?lastSeenId=${id}`).pipe(
+    switchMap(id => ajax.getJSON(`https://common-study-backend.onrender.com/api/news?lastSeenId=${id}`).pipe(
         retryWhen(errors =>
             errors.pipe(
                 delayWhen(() => timer(3000))

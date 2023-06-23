@@ -9,7 +9,7 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    border: 10px solid #e15b64;
+    border: 10px solid #5793ee;
     border-top-color: transparent;
     border-radius: 50%;
   }
@@ -91,7 +91,7 @@
    height: 2vw;
    display: inline-block;
    overflow: hidden;
-   background: #aec6d8;
+   background: #88abe0;
    box-shadow: 0 2px 3px 0 grey;
    border: silver solid 1px;
  }

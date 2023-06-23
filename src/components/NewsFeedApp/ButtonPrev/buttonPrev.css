@@ -5,16 +5,16 @@
     max-width: 200px;
     padding: 0.5vw 2vw;
     margin: 2vw;
-    color: #0f88f2;
+    color: #ffffff;
 
     cursor: pointer;
 
-    background-color: #aec6d8;
+    background-color: #88abe0;
     box-shadow: 0 2px 3px 0 grey;
     border: silver solid 1px;
     border-radius: 5px;
 }
 
 .btn-previous:hover {
-    background-color: #a6c0d6;
+    background-color: #0b8cfd;
 }
