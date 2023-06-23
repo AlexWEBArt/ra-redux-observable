@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ra-redux-observable/static/css/main.6fa537d8.css",
-    "main.js": "/ra-redux-observable/static/js/main.72d27b44.js",
+    "main.css": "/ra-redux-observable/static/css/main.5a209d05.css",
+    "main.js": "/ra-redux-observable/static/js/main.b380478c.js",
     "static/js/787.eeabcd20.chunk.js": "/ra-redux-observable/static/js/787.eeabcd20.chunk.js",
     "static/media/logoNetology.jpg": "/ra-redux-observable/static/media/logoNetology.e77aa8c63e2e33cc047e.jpg",
     "static/media/placeForThePicture.jpg": "/ra-redux-observable/static/media/placeForThePicture.09b54018fc565ea96378.jpg",
     "index.html": "/ra-redux-observable/index.html",
-    "main.6fa537d8.css.map": "/ra-redux-observable/static/css/main.6fa537d8.css.map",
-    "main.72d27b44.js.map": "/ra-redux-observable/static/js/main.72d27b44.js.map",
+    "main.5a209d05.css.map": "/ra-redux-observable/static/css/main.5a209d05.css.map",
+    "main.b380478c.js.map": "/ra-redux-observable/static/js/main.b380478c.js.map",
     "787.eeabcd20.chunk.js.map": "/ra-redux-observable/static/js/787.eeabcd20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fa537d8.css",
-    "static/js/main.72d27b44.js"
+    "static/css/main.5a209d05.css",
+    "static/js/main.b380478c.js"
   ]
 }
