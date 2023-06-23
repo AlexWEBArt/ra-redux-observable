@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import SystemServices from '../SystemServices';
 
 export default function Skills() {
-    const { loading, error } = useSelector(state => state.skills)
+    const { loading, error } = useSelector(state => state.skills);
 
     return (
         <div className='skills-app'>

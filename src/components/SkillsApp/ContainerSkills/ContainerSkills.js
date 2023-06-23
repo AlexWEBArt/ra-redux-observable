@@ -1,4 +1,4 @@
-import { useSelector } from "react-redux"
+import { useSelector } from "react-redux";
 import SkillsList from "../SkillsList/SkillsList";
 
 export default function ContainerSkills() {

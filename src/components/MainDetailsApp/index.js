@@ -4,7 +4,7 @@ import { useSelector } from "react-redux"
 import './index.css'
 
 export default function MainDetails() {
-    const { loading, error } = useSelector(state => state.services)
+    const { loading, error } = useSelector(state => state.services);
 
     return (
         <div className='main-details-app'>

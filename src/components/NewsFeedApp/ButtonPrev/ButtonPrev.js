@@ -4,12 +4,12 @@ import NewsPreloader from "../NewsPreloader/NewsPreloader";
 import './buttonPrev.css'
 
 export default function ButtonPrev() {
-    const { newsItem, loading } = useSelector(state => state.news)
+    const { newsItem, loading } = useSelector(state => state.news);
     const dispatch = useDispatch();
 
     const handleClickPrev = () => {
         dispatch(previousNewsRequest(newsItem[newsItem.length - 1].id))
-    }
+    };
 
     return (
         <>

@@ -4,13 +4,13 @@ import { serviceDetailsRequest } from "../../../redux/actions/actionCreatorsServ
 import { useEffect } from "react";
 
 export default function ServiceDetails() {
-    const { details } = useSelector(state => state.services)
+    const { details } = useSelector(state => state.services);
     const dispatch = useDispatch();
-    const { id } = useParams()
+    const { id } = useParams();
 
     useEffect(() => {
         dispatch(serviceDetailsRequest(id[1]))
-    }, [dispatch, id])
+    }, [dispatch, id]);
 
     return (
         details &&

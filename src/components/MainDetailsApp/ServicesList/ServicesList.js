@@ -4,12 +4,12 @@ import { servicesRequest } from "../../../redux/actions/actionCreatorsServices/a
 import Service from "../Service/Service"
 
 export default function ServicesList() {
-    const { items } = useSelector(state => state.services)
-    const dispatch = useDispatch()
+    const { items } = useSelector(state => state.services);
+    const dispatch = useDispatch();
 
     useEffect(() => {
         dispatch(servicesRequest())
-    }, [dispatch])
+    }, [dispatch]);
 
     return (
         <ul className="services-list">

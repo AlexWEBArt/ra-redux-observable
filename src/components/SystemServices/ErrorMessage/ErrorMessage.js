@@ -1,12 +1,12 @@
-import { useDispatch } from "react-redux"
-import { serviceDetailsRequest, servicesRequest } from "../../../redux/actions/actionCreatorsServices/actionCreatorsServices"
-import { useParams } from "react-router"
-import './errorMessage.css'
+import { useDispatch } from "react-redux";
+import { serviceDetailsRequest, servicesRequest } from "../../../redux/actions/actionCreatorsServices/actionCreatorsServices";
+import { useParams } from "react-router";
+import './errorMessage.css';
 
 export default function ErrorMessage(props) {
-    const { message } = props
-    const {id} = useParams()
-    const dispatch = useDispatch()
+    const { message } = props;
+    const {id} = useParams();
+    const dispatch = useDispatch();
 
     const handleClickRetry = () => {
         if (id) {
@@ -14,7 +14,7 @@ export default function ErrorMessage(props) {
         } else {
             dispatch(servicesRequest())
         }
-    }
+    };
     return (
         <div className="error-message">
             <p className="error-text">Произошла ошибка: {message}</p>
